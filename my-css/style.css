@@ -1,0 +1,43 @@
+.custom-banner {
+  background-image: url(../my-images/food-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.custom-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.304);
+}
+.res-header {
+  background-color: black;
+}
+.main-menu.text-black > ul > li > a {
+  color: white;
+}
+.res-menu ul li.active a,
+.res-menu ul li a:hover {
+  color: #e54c2a;
+}
+.my-logo {
+  font-family: "Open Sans", sans-serif;
+  color: #e54c2a;
+  font-size: 28px;
+  font-weight: 700;
+}
+.foot-logo {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+.foot-logo span {
+  color: #e54c2a;
+}
